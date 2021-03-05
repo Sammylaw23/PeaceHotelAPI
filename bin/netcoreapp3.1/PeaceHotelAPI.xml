@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PeaceHotelAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PeaceHotelAPI.Controllers.ClientController.GetClients">
+            <summary>
+            This methods gets all clients
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeaceHotelAPI.Controllers.ClientController.GetClientById(System.Int32)">
+            <summary>
+            This method gets clients by id
+            </summary>
+            <param name="clientId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeaceHotelAPI.Controllers.ClientController.RegisterClient(PeaceHotelAPI.Dtos.ClientCreateDto)">
+            <summary>
+            This methods registers a new client
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeaceHotelAPI.Controllers.RoomController.CreateRoom(PeaceHotelAPI.Dtos.RoomCreateDto)">
+            <summary>
+            This methods creates a room. 
+            </summary>
+            <param name="room"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeaceHotelAPI.Controllers.RoomController.RegisterRoom(PeaceHotelAPI.Dtos.BookRoomDto)">
+            <summary>
+            This method books a room for a client 
+            </summary>
+            <param name="bookRoom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeaceHotelAPI.Controllers.RoomController.GetAllRoomsCount">
+            <summary>
+            This method gets the count of all rooms
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeaceHotelAPI.Controllers.RoomController.GetFreeRoomsCount">
+            <summary>
+            This method gets the count of all free rooms
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeaceHotelAPI.Controllers.RoomController.GetOccupancy(System.Int32)">
+            <summary>
+            This method gets the occupant of a room by room number
+            </summary>
+            <param name="roomNo"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
